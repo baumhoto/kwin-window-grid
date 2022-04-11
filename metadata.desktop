@@ -11,7 +11,7 @@ X-KWin-Border-Activate=false
 X-KDE-PluginInfo-Author=RubixDev
 X-KDE-PluginInfo-Email=silas.groh@t-online.de
 X-KDE-PluginInfo-Name=window-grid
-X-KDE-PluginInfo-Version=1.0.0
+X-KDE-PluginInfo-Version=1.0.1
 
 X-KDE-PluginInfo-License=GPL
 X-KDE-ServiceTypes=KWin/Script

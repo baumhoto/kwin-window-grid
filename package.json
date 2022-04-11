@@ -1,7 +1,7 @@
 {
   "name": "window-grid",
   "displayName": "Window Grid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quick shortcuts for arranging windows in a specified grid with optional gaps",
   "author": "RubixDev",
   "license": "GPL-2.0-only",
