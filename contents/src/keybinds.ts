@@ -1,6 +1,6 @@
 import { setInGrid, grid, resizeInGrid, moveInGrid } from './manager'
 
-const shortcutPrefix = 'Grid: '
+const shortcutPrefix = 'Window Grid: '
 
 /* ------------ Maximize/Minimize and Edges ------------ */
 // Won't set keys as default because 'Quick Tile Window to ...'
