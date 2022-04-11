@@ -16,3 +16,4 @@ X-KDE-PluginInfo-Version=1.0.0
 X-KDE-PluginInfo-License=GPL
 X-KDE-ServiceTypes=KWin/Script
 X-KDE-PluginKeyword=window-grid
+X-KDE-ConfigModule=kwin/effects/configs/kcm_kwin4_genericscripted

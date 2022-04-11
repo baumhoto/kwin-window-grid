@@ -11,3 +11,6 @@ if kpackagetool5 --list | grep "^$id$" > /dev/null; then
 else
     kpackagetool5 --type=KWin/Script -i "$id.kwinscript"
 fi
+
+mkdir -p ~/.local/share/kservices5
+[ -e ~/".local/share/kservices5/$id.desktop" ] || ln -s ~/.local/share/kwin/scripts/"$id"/metadata.desktop ~/.local/share/kservices5/"$id".desktop

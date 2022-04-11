@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>KWin::TilingScriptConfigForm</class>
+    <widget class="QWidget" name="KWin::TilingScriptConfigForm">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>400</width>
+                <height>400</height>
+            </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0" colspan="2">
+                <widget class="QLabel" name="label_1">
+                    <property name="text">
+                        <string>**Gap Size in Pixels**</string>
+                    </property>
+                    <property name="textFormat">
+                        <enum>Qt::MarkdownText</enum>
+                    </property>
+                </widget>
+            </item>
+            <item row="1" column="0" colspan="2">
+                <widget class="QSpinBox" name="kcfg_gapSize">
+                    <property name="maximum">
+                        <number>200</number>
+                    </property>
+                </widget>
+            </item>
+            <item row="2" column="0" colspan="2">
+                <widget class="QLabel" name="label_2">
+                    <property name="text">
+                        <string>**Grid Size**</string>
+                    </property>
+                    <property name="textFormat">
+                        <enum>Qt::MarkdownText</enum>
+                    </property>
+                </widget>
+            </item>
+            <item row="3" column="0">
+                <widget class="QLabel" name="label_3">
+                    <property name="text">
+                        <string>Width</string>
+                    </property>
+                </widget>
+            </item>
+            <item row="3" column="1">
+                <widget class="QLabel" name="label_4">
+                    <property name="text">
+                        <string>Height</string>
+                    </property>
+                </widget>
+            </item>
+            <item row="4" column="0">
+                <widget class="QSpinBox" name="kcfg_gridWidth">
+                    <property name="minimum">
+                        <number>2</number>
+                    </property>
+                    <property name="maximum">
+                        <number>10</number>
+                    </property>
+                </widget>
+            </item>
+            <item row="4" column="1">
+                <widget class="QSpinBox" name="kcfg_gridHeight">
+                    <property name="minimum">
+                        <number>2</number>
+                    </property>
+                    <property name="maximum">
+                        <number>10</number>
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+</ui>

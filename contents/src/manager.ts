@@ -1,5 +1,8 @@
-const GAP_SIZE = 14
-export let grid = { width: 3, height: 2 }
+const GAP_SIZE = readConfig('gapSize', 14) as number
+export let grid = {
+    width:  readConfig('gridWidth' , 3) as number,
+    height: readConfig('gridHeight', 2) as number,
+}
 
 /**
  * Resize a window to the given grid cells. 0|0 is the top left cell
