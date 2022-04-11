@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Window Grid
+Comment=Quick shortcuts for arranging windows in a specified grid with optional gaps
+Icon=preferences-system-windows-script-test
+
+Type=Service
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+X-KWin-Border-Activate=false
+X-KDE-PluginInfo-Author=RubixDev
+X-KDE-PluginInfo-Email=silas.groh@t-online.de
+X-KDE-PluginInfo-Name=window-grid
+X-KDE-PluginInfo-Version=1.0.0
+
+X-KDE-PluginInfo-License=GPL
+X-KDE-ServiceTypes=KWin/Script
+X-KDE-PluginKeyword=window-grid
