@@ -1,6 +1,8 @@
 # kwin-window-grid
 Quick shortcuts for arranging windows in a specified grid with optional gaps
 
+This project is based on [kwin-typescript-template](https://github.com/RubixDev/kwin-typescript-template)
+
 ## Installation
 ### Using the prepackaged release
 Download the latest release from the [releases page](https://github.com/RubixDev/kwin-window-grid/releases) or with:
