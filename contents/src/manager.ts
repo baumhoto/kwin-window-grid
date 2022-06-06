@@ -1,6 +1,6 @@
-const GAP_SIZE = readConfig('gapSize', 14) as number
+const GAP_SIZE = readConfig('gapSize', 0) as number
 export let grid = {
-    width:  readConfig('gridWidth' , 3) as number,
+    width:  readConfig('gridWidth', 6) as number,
     height: readConfig('gridHeight', 2) as number,
 }
 
@@ -36,7 +36,7 @@ export function setInGrid(
     const diffX = endX - startX
     const diffY = endY - startY
 
-    const screen     = workspace.clientArea(KWin.ScreenArea, client)
+    const screen     = workspace.clientArea(KWin.PlacementArea, client)
     const cellWidth  = (screen.width  - (grid.width  + 1) * gap) / grid.width
     const cellHeight = (screen.height - (grid.height + 1) * gap) / grid.height
 

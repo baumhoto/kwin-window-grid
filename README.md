@@ -1,3 +1,28 @@
+# Fork modifications
+- use PlacmentArea instead of Screenarea  (otherwise parts of window were behind bottom taskbar)
+- changed defaults: Gap=0, Columns=6, Rows=2
+- removed all shortcuts and replaced it with:
+    - Meta+Ctrl+1 -> Top Left Corner
+    - Meta+Ctrl+2 -> Top Right Corner
+    - Meta-Ctrl+3 -> Bottom Left Corner
+    - Meta-Ctrl+4 -> Bottom Right Corner
+    - Meta-Ctrl+5 -> Center
+    - Meta-Ctrl+6 -> Maximized
+    - Meta-Ctrl+7 -> Left Half
+    - Meta-Ctrl+8 -> Right Half
+    - Meta-Ctrl+9 -> Left 1/3
+    - Meta-Ctrl+0 -> Middle 1/3
+    - Meta-Ctrl+- -> Right 1/3
+    - Meta-Ctrl+[ -> Left 2/3
+    - Meta-Ctrl+] -> Right 2/3
+    
+
+Compile and install as described below
+
+
+=================================================
+# Original Readme 
+
 # kwin-window-grid
 Quick shortcuts for arranging windows in a specified grid with optional gaps
 
